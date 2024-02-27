@@ -1,0 +1,102 @@
+.box{
+    background: linear-gradient(to right, #f9fcff 0%, #c8e6ff 100%); 
+}
+.title{
+    text-align: center;
+    float: left;
+    color: rgb(127, 7, 109);
+    margin-left: 40px;
+    font-family: cursive;
+    font-size: 2vw;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color:#c78ff4;;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 5px 5px lightblue;
+}
+.navbar a{
+    color:  rgb(83, 4, 72);
+    display: block;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: #d4b7ec;;
+}
+.navbar li{
+    float: right;
+}
+.img-div{
+    height: 10%;
+    float: left;
+}
+.img1{
+    margin-left: 50%;
+    margin-top: 10%;
+    image-resolution: 10000px;
+    z-index: 100000;
+}
+.img-cap{
+    font-size: 40px;
+    font-style: oblique;
+    font-family: cursive;
+    color: #105949;
+    margin-left: 20%;
+    z-index: 100000;
+}
+.content-div{
+    width: 100%;
+    display: flex;
+    margin-left: 60%;
+    
+}
+.join-now{
+    background-image: linear-gradient(to right, #fbfafe, #dbd3f6);
+    float: right;
+    width: 30%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border-radius: 20px;
+    z-index: 10000;
+    box-shadow: 10px 10px lightblue;
+}
+.join-us-heading{
+    text-align: center;
+    border-radius: 20px;
+    margin: 0;
+    padding: 20px;
+}
+.join-form{
+    margin: 20px; 
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+}
+input, select{
+    border: none;
+    margin: 10px;
+    padding: 20px 10px;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 5px 5px lightblue;
+}
+input:focus,select:focus{
+    outline: 2px solid #e3c1ff;     
+  }
+.join-btn{
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    width: 40%;
+    background-color: 	#e3c1ff;
+    box-shadow: 5px 5px lightblue;
+}
+.contact{
+    padding: 5%;
+    margin-left: 50%;
+}
